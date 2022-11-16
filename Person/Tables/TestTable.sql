@@ -1,0 +1,4 @@
+CREATE TABLE Person.[TestTable]
+(
+  [Id] INT NOT NULL PRIMARY KEY
+)
