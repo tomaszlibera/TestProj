@@ -1,0 +1,4 @@
+CREATE TYPE [dbo].[IDs] AS TABLE (
+    [ID] INT NULL);
+GO
+

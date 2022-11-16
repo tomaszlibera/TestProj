@@ -1,0 +1,11 @@
+
+CREATE   PROC AddPersonOuter2
+@ID2 int OUTPUT
+AS
+BEGIN
+
+	EXEC AddPersonOuter @ID = @ID2 OUTPUT
+
+END
+GO
+
